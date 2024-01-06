@@ -3,7 +3,6 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 # SECURE THIS KEY!
-api_key = "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"
 
 llm = OpenAI(
     openai_api_key=api_key
